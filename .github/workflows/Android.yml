@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Extract app files
-        run: unzip -o app.zip -d .
+        run: unzip -o .github/workflows/app.zip -d .
 
       - name: Set up JDK 17
         uses: actions/setup-java@v4
